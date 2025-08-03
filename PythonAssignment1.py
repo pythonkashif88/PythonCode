@@ -6,10 +6,14 @@ def mathsOperations():
     print("Subtraction ", vNum1 - vNum2)
     print("Multiplication ", vNum1 * vNum2)
     print("Division ", vNum1 / vNum2)
+    
+mathsOperations()    
 	
 def combineNames():
     vFirstName = input("Enter the first name :")
     vLastName = input("Enter the second name :")
     vFullName = vFirstName +' ' + vLastName
     print("Hello "+ vFullName +" welcome to Python code")
+    
+combineNames()    
 		
