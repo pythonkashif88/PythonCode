@@ -1,3 +1,6 @@
+#Assignments 1
+-------------
+# Calculation of Numbers
 def mathsOperations():
     vNum1 = int(input("Enter the first Number: "))
     vNum2 = int(input("Enter the second Number: "))
@@ -6,14 +9,14 @@ def mathsOperations():
     print("Subtraction ", vNum1 - vNum2)
     print("Multiplication ", vNum1 * vNum2)
     print("Division ", vNum1 / vNum2)
-    
-mathsOperations()    
 	
+mathsOperations()	
+
+# combining the name strings	
 def combineNames():
     vFirstName = input("Enter the first name :")
     vLastName = input("Enter the second name :")
     vFullName = vFirstName +' ' + vLastName
     print("Hello "+ vFullName +" welcome to Python code")
-    
-combineNames()    
-		
+	
+combineNames()
